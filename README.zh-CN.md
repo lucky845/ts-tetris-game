@@ -2,7 +2,7 @@
 
 使用TypeScript和HTML5 Canvas构建的经典俄罗斯方块游戏现代实现。
 
-![俄罗斯方块游戏截图](screenshot.png)
+<img src="screenshot.png" alt="俄罗斯方块游戏截图" width="400" height="auto" style="display: block; margin: auto;">
 
 ## 功能特点
 

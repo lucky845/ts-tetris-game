@@ -2,7 +2,7 @@
 
 A modern implementation of the classic Tetris game built with TypeScript and HTML5 Canvas.
 
-![Tetris Game Screenshot](screenshot.png)
+<img src="screenshot.png" alt="Tetris Game Screenshot" width="400" height="auto" style="display: block; margin: auto;">
 
 ## Features
 
