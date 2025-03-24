@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>俄罗斯方块游戏</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="game-console">
+    <div class="game-header">
+      <h1>俄罗斯方块</h1>
+    </div>
+
+    <div class="game-screen">
+      <div class="game-area">
+        <canvas id="game-board" width="240" height="480"></canvas>
+        <div class="game-info">
+          <div class="next-piece-container lcd-effect">
+            <h3>下一个</h3>
+            <canvas id="next-piece" class="next-piece-preview" width="100" height="100"></canvas>
+          </div>
+          <div class="game-stats lcd-effect">
+            <p>得分: <span id="score">0</span></p>
+            <p>消除行: <span id="lines">0</span></p>
+            <p>级别: <span id="level">1</span></p>
+            <p>速度: <span id="speed">1</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- 游戏暂停蒙版 -->
+      <div id="pause-overlay" class="game-overlay" style="display: none;">
+        <h2>游戏暂停</h2>
+        <p>点击继续按钮或按P键继续</p>
+      </div>
+      <!-- 游戏结束蒙版 -->
+      <div id="gameover-overlay" class="game-overlay" style="display: none;">
+        <h2>游戏结束</h2>
+        <p>按开始键重新开始</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="direction-pad">
+        <div class="direction-buttons">
+          <button class="game-button" id="space-button">掉落</button>
+          <button class="game-button" id="up-button">⇧</button>
+          <button class="game-button" id="drop-button">旋转</button>
+          <button class="game-button" id="left-button">⇦</button>
+          <button class="game-button" id="down-button">⇩</button>
+          <button class="game-button" id="right-button">⇨</button>
+        </div>
+      </div>
+
+      <div class="function-buttons">
+        <button class="function-button start" id="start-button">开始/复位</button>
+        <button class="function-button pause" id="pause-button">开始/暂停</button>
+      </div>
+    </div>
+
+    <div class="key-control-info">
+      <p>TETRIS GAME</p>
+    </div>
+  </div>
+</body>
+
+</html>

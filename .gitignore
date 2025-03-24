@@ -1,0 +1,65 @@
+# 依赖目录
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+.yarn/
+bun.lock
+
+# 构建输出
+/dist/
+/build/
+/out/
+/.next/
+/.nuxt/
+/.output/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE文件
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+.tscache/
+tsconfig.tsbuildinfo
+
+# 测试覆盖率
+/coverage/
+/.nyc_output/
+
+# 日志文件
+/logs/
+*.log
+
+# 临时文件
+.tmp/
+.temp/
+.cache/
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 项目特定文件
+.cache-loader/
