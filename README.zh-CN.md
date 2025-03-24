@@ -24,7 +24,7 @@
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/yourusername/ts-tetris-game.git
+   git clone https://github.com/lucky845/ts-tetris-game.git
    cd ts-tetris-game
    ```
 
